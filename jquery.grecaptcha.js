@@ -1,10 +1,10 @@
 (function($) {
 
 	var defaults = {
-            sitekey: '',
-			ajax: false,
-			parent: null,
-            size: 'visible'
+		sitekey: '',
+		ajax: false,
+		parent: null,
+		size: 'visible'
         };
 
 	var methods = {
