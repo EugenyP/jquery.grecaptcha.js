@@ -1,6 +1,6 @@
-# Jquery Google Recaptcha Plugin
+# jQuery Google Recaptcha Plugin
 
-Jquery плагин для обработки каптчи от Google.
+jQuery плагин для обработки каптчи от Google.
 
 Подключение:
 
