@@ -45,7 +45,6 @@
 				var grecaptcha_div = false;
 				if (options.parent !== null) {
 					grecaptcha_div = form.find(options.parent);
-					console.log(grecaptcha_div.length);
 					if (grecaptcha_div.length) {
 						var id = grecaptcha_div.attr('id');
 						if (typeof(id) === 'undefined') {
@@ -75,10 +74,10 @@
 						form.data('gcaptcha_valid', false);
 					}
 				});					
-				gcaptcha = grecaptcha.render(id, {
+				var gcaptcha = grecaptcha.render(id, {
 					sitekey : options.sitekey,
 					size: options.size,
-					callback	: function(){
+					callback: function(){
 						form.grecaptcha('callback');
 					}
 				});
